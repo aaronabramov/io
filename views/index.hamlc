@@ -59,7 +59,14 @@
 
       %p Мы стремимся найти индивидуальный подход к каждому, учесть все индивидуальные пожелания.
 .second-section
-
+  .fotorama{ :data-width => "1000", :data-max-width => "100%", :data-nav => "thumbs", :data-arrows => "true"}
+    %img{:src => "http://s.fotorama.io/1.jpg", :alt => ""}
+    %img{:src => "http://s.fotorama.io/2.jpg", :alt => ""}
+    %img{:src => "http://s.fotorama.io/3.jpg", :alt => ""}
+    %img{:src => "http://s.fotorama.io/4.jpg", :alt => ""}
+    %img{:src => "http://s.fotorama.io/5.jpg", :alt => ""}
+    %img{:src => "http://s.fotorama.io/1.jpg", :alt => ""} 
+    
 .third-section
   %ul.l-nav
     %li
