@@ -1,211 +1,218 @@
-.first-section
-  .l-main
-    %ul.l-nav
-      %li
-        %a Главная
-      %li
-        %a О Студии
-      %li
-        %a Портфолио
-      %li
-        %a Услуги
-      %li
-        %a Контакты
-    %h1.main-title Студия Ильясовой Оксаны
-    %p.main-contacts
-      \+7 927 658-03-12
-      %br
-      ilyasova.ok@mail.ru
+!!!
+%link{href: '/stylesheets/normalize.css', rel: 'stylesheet', type: 'text/css'}
+%link{href: '/stylesheets/style.css', rel: 'stylesheet', type: 'text/css'}
+%link{href: '/stylesheets/fotorama.css', rel: 'stylesheet', type: 'text/css'}
+%script{src: 'http://code.jquery.com/jquery-1.10.2.min.js', type: 'text/javascript'}
+%script{src: '/js/fotorama.js', type: 'text/javascript'}
+%body
+  .first-section
+    .l-main
+      %ul.l-nav
+        %li
+          %a Главная
+        %li
+          %a О Студии
+        %li
+          %a Портфолио
+        %li
+          %a Услуги
+        %li
+          %a Контакты
+      %h1.main-title Студия Ильясовой Оксаны
+      %p.main-contacts
+        \+7 927 658-03-12
+        %br
+        ilyasova.ok@mail.ru
 
-  .l-about
-    %ul.l-nav
-      %li
-        %a Главная
-      %li
-        %a О Студии
-      %li
-        %a Портфолио
-      %li
-        %a Услуги
-      %li
-        %a Контакты
+    .l-about
+      %ul.l-nav
+        %li
+          %a Главная
+        %li
+          %a О Студии
+        %li
+          %a Портфолио
+        %li
+          %a Услуги
+        %li
+          %a Контакты
 
-    %ul.b-pictures
-      %li
-        %img{src: '/images/oksana.png'}
-        %p
-          Ильясова
-          %br
-          Оксана
-      %li
-        %img{src: '/images/nikita.png'}
-        %p
-          Никита
-          %br
-          Сухоруков
-
-    .b-about
-      %p Мы — команда профессионалов, создающих интерьер. Наша специализация — проектирование и авторское сопровождение в процессе  реализации  интерьеров жилых (квартиры, коттеджи) и общественных (офисы, кафе, рестораны, гостиницы, салоны красоты, магазины, клиники) помещений.
-
-      %p Для Вас мы продумаем  идею, концепцию будущего интерьера,  опишем её на бумаге, предоставим все необходимые эскизы, планы и чертежи и  проследим за её воплощением. Мы сможем укомплектовать объект всем необходимым: отделочными материалами, сантехническим оборудованием, светотехникой, мебелью, бытовой техникой, окнами, дверьми, кондиционерами, вентиляционным оборудованием, аксессуарами и предметами интерьера. Выполним на заказ индивидуальные художественные работы.
-
-      %p Наша студия работает  во всех стилевых направлениях, умеет сочетать различные стили в интерьере. Основные принципы в работе: эргономичность, функциональность, комфорт, визуальная эстетика и гармония создаваемого пространства.
-
-      %p Мы стремимся найти индивидуальный подход к каждому, учесть все индивидуальные пожелания.
-.second-section
-  .fotorama{ :data-max-width => "1000", :data-max-height => "650", :data-nav => "thumbs", :data-arrows => "true"}
-    %img{:src => "/images/slider/bedroom(1).jpg", :alt => ""}
-    %img{:src => "/images/slider/bedroom(2).jpg", :alt => ""}
-    %img{:src => "/images/slider/bedroom(3).jpg", :alt => ""}
-    %img{:src => "/images/slider/kitchen_living_room(1).jpg", :alt => ""}
-    %img{:src => "/images/slider/kitchen_living_room(2).jpg", :alt => ""}
-    %img{:src => "/images/slider/kitchen_living_room(3).jpg", :alt => ""}
-    %img{:src => "/images/slider/kitchen_living_room(4).jpg", :alt => ""}
-    %img{:src => "/images/slider/kitchen_living_room(5).jpg", :alt => ""}
-    %img{:src => "/images/slider/kitchen_living_room(6).jpg", :alt => ""}
-    %img{:src => "/images/slider/living_room.jpg", :alt => ""}
-    %img{:src => "/images/slider/living_room1(6).jpg", :alt => ""}
-    %img{:src => "/images/slider/living_room1(7).jpg", :alt => ""}
-    %img{:src => "/images/slider/living_room1(2).jpg", :alt => ""} 
-    %img{:src => "/images/slider/living_room3(1).jpg", :alt => ""}
-    %img{:src => "/images/slider/living_room3(2).jpg", :alt => ""} 
-    %img{:src => "/images/slider/living_room(1).jpg", :alt => ""}
-    %img{:src => "/images/slider/living_room(2).jpg", :alt => ""}
-    %img{:src => "/images/slider/living_room(3).jpg", :alt => ""}
-    %img{:src => "/images/slider/lobby(1).jpg", :alt => ""}
-    %img{:src => "/images/slider/lobby(2).jpg", :alt => ""}
-    %img{:src => "/images/slider/lobby(3).jpg", :alt => ""}
-    %img{:src => "/images/slider/studio(1).jpg", :alt => ""} 
-    %img{:src => "/images/slider/studio(2).jpg", :alt => ""}
-    %img{:src => "/images/slider/studio(5).jpg", :alt => ""}
-    %img{:src => "/images/slider/studio(6).jpg", :alt => ""}
-    %img{:src => "/images/slider/studio(7).jpg", :alt => ""}
-    %img{:src => "/images/slider/studio(8).jpg", :alt => ""} 
-    
-.third-section
-  %ul.l-nav
-    %li
-      %a Главная
-    %li
-      %a О Студии
-    %li
-      %a Портфолио
-    %li
-      %a Услуги
-    %li
-      %a Контакты
-
-  .l-services
-    .b-services
-      %img{src: '/images/04_services.png'}
-      %p
-        Перечень услуг по дизайну интерьера включает:
-        %br
-        %br
-        — планировочное решение;
-        %br
-        — эскизное проектирование;
-        %br
-        — подготовку полного архитектурного дизайн-проекта;
-        %br
-        — подбор и комплектацию мебелью, оборудованием, аксессуарами, предметами интерьера;
-        %br
-        — декорирование интерьера;
-        %br
-        — авторский надзор за соответствием работ, комплектация объекта
-
-    %h2
-    .b-services-one
-      %img{src: '/images/04_stage_1.png'}
-      %h3 1. Планировочное решение и эскизный проект
-      %p
-        Начальный этап самый важный и сложный. На этом этапе мы будем изучать все Ваши требования, выслушивать пожелания и замечания, чтобы учесть все это в дальнейшей работе.
-        %br
-        %br
-        На первом этапе вы получаете план-концепцию, включающую в себя возможную перепланировку с расстановкой мебели, и эскизные изображения интерьера.
-
-    .b-services-two
-      %img{src: '/images/04_stage_2.png'}
-      %h3 2. Разработка дизайн-проекта и подбор материалов
-      %p
-        Состав документации дизайн-проекта:
-        %br
-        — обмерочный план;
-        %br
-        — план перепланировки (демонтажный и кладочный);
-        %br
-        — расположение мебели и техоборудования;
-        %br
-        — общий план помещения с указанием площадей;
-        %br
-        — полы и потолки с указанием покрытий;
-        %br
-        — план-схема освещения;
-        %br
-        — размещение розеток и выключателей;
-        %br
-        — размещение сантехники и отопления;
-        %br
-        — развёртки стен с указанием покрытий — схема раскладки плитки;
-        %br
-        — ведомость отделки помещений;— спецификация материалов;
-        %br
-        — визуализация помещений в перспективе.
-        %br
-        %br
-        По окончанию 2-го этапа Вы получаете полный дизайн-проект, готовый для начала строительно-отделочных работ.
-
-    .b-services-three
-      %img{src: '/images/04_stage_3.png'}
-      %h3 3. Сопровождение реализации проекта
-      %p
-        На этом этапе мы помогаем Вам воплотить проект в жизнь. Авторское сопровождение включает в себя:
-        %br
-        %br
-        — контроль соответствия проекта;
-        %br
-        — внесение необходимых изменений и поправок в проект;
-        %br
-        — полная комплектация объекта материалами, мебелью, оборудованием, декорирование.
-
-.fourth-section
-  %ul.l-nav
-    %li
-      %a Главная
-    %li
-      %a О Студии
-    %li
-      %a Портфолио
-    %li
-      %a Услуги
-    %li
-      %a Контакты
-
-  .l-contacts
-    %script{type: 'text/javascript', src: '//api-maps.yandex.ru/services/constructor/1.0/js/?sid=1yxF4V4hbkIQ6t1vcuI_aLVLvdu2JITV&width=511&height=511', charset: 'utf-8'}
-    %table
-      %tr
-        %th{colspan: 2} Контакты
-      %tr
-        %td Телефоны:
-        %td
-          %p +7 (927) 658-03-12
-          %p +7 (917) 140-93-88
-          %p 8 (846) 270-83-39
-      %tr
-        %td E-mail:
-        %td ilyasova.ok@mail.ru
-      %tr
-        %td Ссылки:
-        %td
-          %p 
-            %a{:href => "https://www.facebook.com/groups/1381065362114040/", :target => "_blank"} 
-              Facebook
+      %ul.b-pictures
+        %li
+          %img{src: '/images/oksana.png'}
           %p
-            %a{:href => "http://vk.com/studio_io", :target => "_blank"} 
-              Вконтакте
-      %tr
-        %td Адрес:
-        %td 
-          %p 443099, г. Самара, 
-          %p ул. Крупской, д. 1, 6-й этаж, офис 11.
+            Ильясова
+            %br
+            Оксана
+        %li
+          %img{src: '/images/nikita.png'}
+          %p
+            Никита
+            %br
+            Сухоруков
+
+      .b-about
+        %p Мы — команда профессионалов, создающих интерьер. Наша специализация — проектирование и авторское сопровождение в процессе  реализации  интерьеров жилых (квартиры, коттеджи) и общественных (офисы, кафе, рестораны, гостиницы, салоны красоты, магазины, клиники) помещений.
+
+        %p Для Вас мы продумаем  идею, концепцию будущего интерьера,  опишем её на бумаге, предоставим все необходимые эскизы, планы и чертежи и  проследим за её воплощением. Мы сможем укомплектовать объект всем необходимым: отделочными материалами, сантехническим оборудованием, светотехникой, мебелью, бытовой техникой, окнами, дверьми, кондиционерами, вентиляционным оборудованием, аксессуарами и предметами интерьера. Выполним на заказ индивидуальные художественные работы.
+
+        %p Наша студия работает  во всех стилевых направлениях, умеет сочетать различные стили в интерьере. Основные принципы в работе: эргономичность, функциональность, комфорт, визуальная эстетика и гармония создаваемого пространства.
+
+        %p Мы стремимся найти индивидуальный подход к каждому, учесть все индивидуальные пожелания.
+  .second-section
+    .fotorama{ :data-max-width => "1000", :data-max-height => "650", :data-nav => "thumbs", :data-arrows => "true"}
+      %img{:src => "/images/slider/bedroom(1).jpg", :alt => ""}
+      %img{:src => "/images/slider/bedroom(2).jpg", :alt => ""}
+      %img{:src => "/images/slider/bedroom(3).jpg", :alt => ""}
+      %img{:src => "/images/slider/kitchen_living_room(1).jpg", :alt => ""}
+      %img{:src => "/images/slider/kitchen_living_room(2).jpg", :alt => ""}
+      %img{:src => "/images/slider/kitchen_living_room(3).jpg", :alt => ""}
+      %img{:src => "/images/slider/kitchen_living_room(4).jpg", :alt => ""}
+      %img{:src => "/images/slider/kitchen_living_room(5).jpg", :alt => ""}
+      %img{:src => "/images/slider/kitchen_living_room(6).jpg", :alt => ""}
+      %img{:src => "/images/slider/living_room.jpg", :alt => ""}
+      %img{:src => "/images/slider/living_room1(6).jpg", :alt => ""}
+      %img{:src => "/images/slider/living_room1(7).jpg", :alt => ""}
+      %img{:src => "/images/slider/living_room1(2).jpg", :alt => ""}
+      %img{:src => "/images/slider/living_room3(1).jpg", :alt => ""}
+      %img{:src => "/images/slider/living_room3(2).jpg", :alt => ""}
+      %img{:src => "/images/slider/living_room(1).jpg", :alt => ""}
+      %img{:src => "/images/slider/living_room(2).jpg", :alt => ""}
+      %img{:src => "/images/slider/living_room(3).jpg", :alt => ""}
+      %img{:src => "/images/slider/lobby(1).jpg", :alt => ""}
+      %img{:src => "/images/slider/lobby(2).jpg", :alt => ""}
+      %img{:src => "/images/slider/lobby(3).jpg", :alt => ""}
+      %img{:src => "/images/slider/studio(1).jpg", :alt => ""}
+      %img{:src => "/images/slider/studio(2).jpg", :alt => ""}
+      %img{:src => "/images/slider/studio(5).jpg", :alt => ""}
+      %img{:src => "/images/slider/studio(6).jpg", :alt => ""}
+      %img{:src => "/images/slider/studio(7).jpg", :alt => ""}
+      %img{:src => "/images/slider/studio(8).jpg", :alt => ""}
+
+  .third-section
+    %ul.l-nav
+      %li
+        %a Главная
+      %li
+        %a О Студии
+      %li
+        %a Портфолио
+      %li
+        %a Услуги
+      %li
+        %a Контакты
+
+    .l-services
+      .b-services
+        %img{src: '/images/04_services.png'}
+        %p
+          Перечень услуг по дизайну интерьера включает:
+          %br
+          %br
+          — планировочное решение;
+          %br
+          — эскизное проектирование;
+          %br
+          — подготовку полного архитектурного дизайн-проекта;
+          %br
+          — подбор и комплектацию мебелью, оборудованием, аксессуарами, предметами интерьера;
+          %br
+          — декорирование интерьера;
+          %br
+          — авторский надзор за соответствием работ, комплектация объекта
+
+      %h2
+      .b-services-one
+        %img{src: '/images/04_stage_1.png'}
+        %h3 1. Планировочное решение и эскизный проект
+        %p
+          Начальный этап самый важный и сложный. На этом этапе мы будем изучать все Ваши требования, выслушивать пожелания и замечания, чтобы учесть все это в дальнейшей работе.
+          %br
+          %br
+          На первом этапе вы получаете план-концепцию, включающую в себя возможную перепланировку с расстановкой мебели, и эскизные изображения интерьера.
+
+      .b-services-two
+        %img{src: '/images/04_stage_2.png'}
+        %h3 2. Разработка дизайн-проекта и подбор материалов
+        %p
+          Состав документации дизайн-проекта:
+          %br
+          — обмерочный план;
+          %br
+          — план перепланировки (демонтажный и кладочный);
+          %br
+          — расположение мебели и техоборудования;
+          %br
+          — общий план помещения с указанием площадей;
+          %br
+          — полы и потолки с указанием покрытий;
+          %br
+          — план-схема освещения;
+          %br
+          — размещение розеток и выключателей;
+          %br
+          — размещение сантехники и отопления;
+          %br
+          — развёртки стен с указанием покрытий — схема раскладки плитки;
+          %br
+          — ведомость отделки помещений;— спецификация материалов;
+          %br
+          — визуализация помещений в перспективе.
+          %br
+          %br
+          По окончанию 2-го этапа Вы получаете полный дизайн-проект, готовый для начала строительно-отделочных работ.
+
+      .b-services-three
+        %img{src: '/images/04_stage_3.png'}
+        %h3 3. Сопровождение реализации проекта
+        %p
+          На этом этапе мы помогаем Вам воплотить проект в жизнь. Авторское сопровождение включает в себя:
+          %br
+          %br
+          — контроль соответствия проекта;
+          %br
+          — внесение необходимых изменений и поправок в проект;
+          %br
+          — полная комплектация объекта материалами, мебелью, оборудованием, декорирование.
+
+  .fourth-section
+    %ul.l-nav
+      %li
+        %a Главная
+      %li
+        %a О Студии
+      %li
+        %a Портфолио
+      %li
+        %a Услуги
+      %li
+        %a Контакты
+
+    .l-contacts
+      %script{type: 'text/javascript', src: '//api-maps.yandex.ru/services/constructor/1.0/js/?sid=1yxF4V4hbkIQ6t1vcuI_aLVLvdu2JITV&width=511&height=511', charset: 'utf-8'}
+      %table
+        %tr
+          %th{colspan: 2} Контакты
+        %tr
+          %td Телефоны:
+          %td
+            %p +7 (927) 658-03-12
+            %p +7 (917) 140-93-88
+            %p 8 (846) 270-83-39
+        %tr
+          %td E-mail:
+          %td ilyasova.ok@mail.ru
+        %tr
+          %td Ссылки:
+          %td
+            %p
+              %a{:href => "https://www.facebook.com/groups/1381065362114040/", :target => "_blank"}
+                Facebook
+            %p
+              %a{:href => "http://vk.com/studio_io", :target => "_blank"}
+                Вконтакте
+        %tr
+          %td Адрес:
+          %td
+            %p 443099, г. Самара,
+            %p ул. Крупской, д. 1, 6-й этаж, офис 11.
