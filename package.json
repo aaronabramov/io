@@ -12,6 +12,7 @@
     "jade": "*",
     "stylus": "*",
     "nib": "*",
-    "forever": "*"
+    "forever": "*",
+    "fs-extra": "0.9.1"
   }
 }
